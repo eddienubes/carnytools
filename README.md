@@ -1,1 +1,1 @@
-# Collection of tools for TypeScript development
+# Collection of tools for TypeScript
