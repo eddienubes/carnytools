@@ -1,0 +1,17 @@
+{
+  "name": "carnytools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Eddie Nubes",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.12.3",
+    "lerna": "^8.1.2",
+    "typescript": "^5.4.3"
+  }
+}
