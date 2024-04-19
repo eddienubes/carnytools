@@ -1,5 +1,6 @@
 {
   "name": "carnytools",
+  "private": true,
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -11,6 +12,8 @@
   "license": "ISC",
   "devDependencies": {
     "@types/node": "^20.12.3",
+    "nx": "18.3.2",
     "typescript": "^5.4.3"
   }
 }
+
