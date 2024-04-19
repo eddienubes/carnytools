@@ -1,12 +1,20 @@
 {
   "name": "@carnytools/types",
-  "version": "1.1.1",
+  "version": "0.0.1",
+  "private": false,
   "description": "",
+  "keywords": [],
+  "license": "ISC",
+  "author": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "eslint:check": "eslint .",
+    "eslint:fix": "eslint --fix .",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "prettier": "@carnytools/styles/prettier",
+  "devDependencies": {
+    "@carnytools/styles": "workspace:*"
+  }
 }

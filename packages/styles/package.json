@@ -1,16 +1,11 @@
 {
   "name": "@carnytools/styles",
   "version": "0.0.1",
+  "private": false,
   "description": "A set of configs for prettier, eslint, and typescript",
-  "scripts": {
-    "prettier:check": "prettier --check .",
-    "prettier:fix": "prettier --write .",
-    "eslint:check": "eslint .",
-    "eslint:fix": "eslint --fix ."
-  },
   "keywords": [],
-  "author": "",
   "license": "ISC",
+  "author": "",
   "exports": {
     "./ts": "./src/typescript/tsconfig.base.json",
     "./ts/cjs": "./src/typescript/tsconfig.cjs.json",
@@ -18,6 +13,13 @@
     "./prettier": "./src/prettier/index.js",
     "./eslint/*": "./src/eslint/*.js"
   },
+  "scripts": {
+    "eslint:check": "eslint .",
+    "eslint:fix": "eslint --fix .",
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write ."
+  },
+  "prettier": "./src/prettier/index.js",
   "dependencies": {
     "@vercel/style-guide": "^6.0.0"
   },
@@ -40,5 +42,8 @@
     "typescript": {
       "optional": true
     }
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

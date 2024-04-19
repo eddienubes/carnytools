@@ -1,5 +1,6 @@
-module.export = {
-    extends: [
-        require.resolve('@vercel/style-guide/eslint/browser')
-    ]
-}
+module.exports = {
+  extends: [
+    require.resolve('@vercel/style-guide/eslint/browser'),
+    require.resolve('./base.js')
+  ]
+};
