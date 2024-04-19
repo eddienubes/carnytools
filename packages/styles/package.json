@@ -9,6 +9,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "exports": {
+    "./ts": "./src/typescript/tsconfig.base.json",
+    "./ts/cjs": "./src/typescript/tsconfig.cjs.json",
+    "./ts/esm": "./src/typescript/tsconfig.esm.json"
+  },
   "dependencies": {
     "@vercel/style-guide": "^6.0.0"
   },
