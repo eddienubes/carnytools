@@ -1,10 +1,12 @@
 {
   "name": "@carnytools/styles",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "A set of configs for prettier, eslint, and typescript",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prettier:check": "prettier --check .",
+    "prettier:fix": "prettier --write .",
+    "eslint:check": "eslint .",
+    "eslint:fix": "eslint --fix ."
   },
   "keywords": [],
   "author": "",
@@ -13,7 +15,8 @@
     "./ts": "./src/typescript/tsconfig.base.json",
     "./ts/cjs": "./src/typescript/tsconfig.cjs.json",
     "./ts/esm": "./src/typescript/tsconfig.esm.json",
-    "./prettier": "./src/prettier/index.js"
+    "./prettier": "./src/prettier/index.js",
+    "./eslint/*": "./src/eslint/*.js"
   },
   "dependencies": {
     "@vercel/style-guide": "^6.0.0"
