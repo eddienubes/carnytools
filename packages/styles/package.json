@@ -12,7 +12,8 @@
   "exports": {
     "./ts": "./src/typescript/tsconfig.base.json",
     "./ts/cjs": "./src/typescript/tsconfig.cjs.json",
-    "./ts/esm": "./src/typescript/tsconfig.esm.json"
+    "./ts/esm": "./src/typescript/tsconfig.esm.json",
+    "./prettier": "./src/prettier/index.js"
   },
   "dependencies": {
     "@vercel/style-guide": "^6.0.0"
