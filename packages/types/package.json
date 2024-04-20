@@ -1,6 +1,6 @@
 {
   "name": "@carnytools/types",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": false,
   "description": "",
   "keywords": [],
@@ -16,5 +16,8 @@
   "prettier": "@carnytools/styles/prettier",
   "devDependencies": {
     "@carnytools/styles": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
