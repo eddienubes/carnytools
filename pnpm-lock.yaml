@@ -33,6 +33,12 @@ importers:
         specifier: ^5.4.3
         version: 5.4.3
 
+  packages/conventional-release:
+    devDependencies:
+      '@carnytools/styles':
+        specifier: workspace:*
+        version: link:../styles
+
   packages/styles:
     dependencies:
       '@next/eslint-plugin-next':
