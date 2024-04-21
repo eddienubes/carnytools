@@ -1,6 +1,6 @@
 {
   "name": "@carnytools/styles",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "private": false,
   "description": "A set of configs for prettier, eslint, and typescript",
   "keywords": [],
