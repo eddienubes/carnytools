@@ -6,7 +6,7 @@
     "build:prod": "rm -rf dist && tsup ./src --format cjs,esm --no-splitting --dts --tsconfig tsconfig.build.json",
     "build:dev": "tsc -p tsconfig.json"
   },
-  "type": "commonjs",
+  "type": "module",
   "exports": {
     "./changelog": {
       "import": "./dist/changelog.mjs",
@@ -25,10 +25,14 @@
   "license": "ISC",
   "devDependencies": {
     "@carnytools/styles": "workspace:*",
-    "@changesets/types": "^6.0.0"
+    "@changesets/types": "^6.0.0",
+    "vitest": "^1.5.0"
   },
   "publishConfig": {
     "access": "public"
   },
-  "prettier": "@carnytools/styles/prettier"
+  "prettier": "@carnytools/styles/prettier",
+  "dependencies": {
+    "simple-git": "^3.24.0"
+  }
 }

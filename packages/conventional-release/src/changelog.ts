@@ -18,12 +18,8 @@ export const getDependencyReleaseLine: GetDependencyReleaseLine = async (
 ): Promise<string> => {
   console.log(inspect(release, { depth: null }));
 
-  await someAsyncFunction();
-
   return `### matter of fact dep release line`;
 };
-
-const someAsyncFunction = async () => {};
 
 export default {
   getReleaseLine,
