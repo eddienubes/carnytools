@@ -2,17 +2,33 @@
   "name": "@carnytools/conventional-release",
   "version": "0.0.1",
   "description": "Helper package to build release commit and changelog according to conventional commits",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:prod": "rm -rf dist && tsup ./src --format cjs,esm --no-splitting --dts --tsconfig tsconfig.build.json",
+    "build:dev": "tsc -p tsconfig.json"
   },
+  "type": "commonjs",
+  "exports": {
+    "./changelog": {
+      "import": "./dist/changelog.mjs",
+      "default": "./dist/changelog.js"
+    },
+    "./commit": {
+      "import": "./dist/commit.mjs",
+      "default": "./dist/commit.js"
+    }
+  },
+  "files": [
+    "dist"
+  ],
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@carnytools/styles": "workspace:*"
+    "@carnytools/styles": "workspace:*",
+    "@changesets/types": "^6.0.0"
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "prettier": "@carnytools/styles/prettier"
 }

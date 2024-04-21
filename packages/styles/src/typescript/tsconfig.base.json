@@ -9,6 +9,7 @@
     "experimentalDecorators": true,
     "noImplicitAny": true,
     "emitDecoratorMetadata": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "strictNullChecks": true
   }
 }

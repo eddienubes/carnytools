@@ -1,3 +1,15 @@
 {
-
+  "extends": "@carnytools/styles/ts/esm",
+  "compilerOptions": {
+    "outDir": "dist",
+    "noEmit": true,
+    "incremental": true,
+    "declaration": false,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "strict": true
+  },
+  "include": [
+    "**/*"
+  ]
 }

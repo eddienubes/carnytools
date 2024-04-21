@@ -9,6 +9,8 @@ module.exports = {
     '@typescript-eslint/ban-ts-comment': 'warn',
     '@typescript-eslint/no-inferrable-types': 'off',
     '@typescript-eslint/no-unused-vars': 'warn',
-    '@typescript-eslint/ban-types': 'warn'
+    '@typescript-eslint/ban-types': 'warn',
+    '@typescript-eslint/require-await': 'off',
+    '@typescript-eslint/restrict-template-expressions': 'off'
   }
 };

@@ -1,6 +1,15 @@
 {
-  "extends": ["../../tsconfig.json"],
+  "extends": [
+    "../../tsconfig.json"
+  ],
   "compilerOptions": {
-    "outDir": "./dist"
-  }
+    "outDir": "./dist",
+    "noEmit": true,
+    "types": [
+      "vitest/globals"
+    ]
+  },
+  "include": [
+    "**/*"
+  ]
 }

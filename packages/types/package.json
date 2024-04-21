@@ -15,7 +15,9 @@
   },
   "prettier": "@carnytools/styles/prettier",
   "devDependencies": {
-    "@carnytools/styles": "workspace:*"
+    "@carnytools/conventional-release": "workspace:*",
+    "@carnytools/styles": "workspace:*",
+    "vitest": "^1.5.0"
   },
   "publishConfig": {
     "access": "public"
