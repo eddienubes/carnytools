@@ -1,5 +1,0 @@
----
-"@carnytools/types": patch
----
-
-aksdkfkajsdkjfaskjdf

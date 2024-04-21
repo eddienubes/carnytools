@@ -1,12 +1,12 @@
 {
   "name": "@carnytools/types",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "private": false,
   "description": "",
   "keywords": [],
   "license": "ISC",
   "author": "",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "eslint:check": "eslint .",
     "eslint:fix": "eslint --fix .",
