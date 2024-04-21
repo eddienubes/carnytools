@@ -11,5 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "@carnytools/styles": "workspace:*"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
