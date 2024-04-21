@@ -8,6 +8,9 @@ importers:
 
   .:
     devDependencies:
+      '@carnytools/conventional-release':
+        specifier: workspace:*
+        version: link:packages/conventional-release
       '@changesets/changelog-git':
         specifier: ^0.2.0
         version: 0.2.0
@@ -65,9 +68,6 @@ importers:
 
   packages/types:
     devDependencies:
-      '@carnytools/conventional-release':
-        specifier: workspace:*
-        version: link:../conventional-release
       '@carnytools/styles':
         specifier: workspace:*
         version: link:../styles
