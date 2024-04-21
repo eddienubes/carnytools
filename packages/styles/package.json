@@ -10,11 +10,11 @@
     "src"
   ],
   "exports": {
-    "./ts": "./typescript/tsconfig.base.json",
-    "./ts/cjs": "./typescript/tsconfig.cjs.json",
-    "./ts/esm": "./typescript/tsconfig.esm.json",
-    "./prettier": "./prettier/index.js",
-    "./eslint/*": "./eslint/*.js"
+    "./ts": "./src/typescript/tsconfig.base.json",
+    "./ts/cjs": "./src/typescript/tsconfig.cjs.json",
+    "./ts/esm": "./src/typescript/tsconfig.esm.json",
+    "./prettier": "./src/prettier/index.js",
+    "./eslint/*": "./src/eslint/*.js"
   },
   "scripts": {
     "eslint:check": "eslint .",
