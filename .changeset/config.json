@@ -1,6 +1,5 @@
 {
   "$schema": "https://unpkg.com/@changesets/config@3.0.0/schema.json",
-  "changelog": "@carnytools/conventional-release/changelog",
   "commit": true,
   "fixed": [],
   "linked": [],
