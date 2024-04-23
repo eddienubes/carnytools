@@ -1,6 +1,6 @@
 {
   "name": "@carnytools/conventional-release",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Helper package to build release commit and changelog according to conventional commits",
   "scripts": {
     "build:prod": "rm -rf dist && tsup ./src --format cjs,esm --no-splitting --dts --tsconfig tsconfig.build.json",

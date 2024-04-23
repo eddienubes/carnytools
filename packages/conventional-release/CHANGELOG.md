@@ -1,5 +1,11 @@
 # @carnytools/conventional-release
 
+## 0.0.4
+
+### Patch Changes
+
+- af999be: asdfasdf
+
 ## 0.0.3
 
 ### Patch Changes
