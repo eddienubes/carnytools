@@ -7,7 +7,7 @@ import type {
 export const getReleaseLine: GetReleaseLine = async (
   release
 ): Promise<string> => {
-  // const header = release.releases.hh;
+  // const header = release.releases.hh; // hh is the id of the release
   console.log(inspect(release, { depth: null }));
 
   return `### matter of fact release line`;
