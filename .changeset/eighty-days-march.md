@@ -2,4 +2,8 @@
 "@carnytools/conventional-release": patch
 ---
 
-aksdkfjasldflkjasdljkfaasdfasdf
+- Fix: Fix a bug in the `eighty-days-march` module
+```
+<html></html>
+```
+
