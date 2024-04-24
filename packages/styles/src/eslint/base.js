@@ -9,6 +9,7 @@ module.exports = {
           pascalCase: true
         }
       }
-    ]
+    ],
+    'import/no-named-as-default-member': 'off'
   }
 };

@@ -11,6 +11,9 @@ module.exports = {
     '@typescript-eslint/no-unused-vars': 'warn',
     '@typescript-eslint/ban-types': 'warn',
     '@typescript-eslint/require-await': 'off',
-    '@typescript-eslint/restrict-template-expressions': 'off'
+    '@typescript-eslint/restrict-template-expressions': 'off',
+    '@typescript-eslint/no-confusing-void-expression': 'off',
+    '@typescript-eslint/no-shadow': 'off',
+    '@typescript-eslint/non-nullable-type-assertion-style': 'off'
   }
 };
